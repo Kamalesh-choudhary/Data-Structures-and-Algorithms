@@ -1,6 +1,6 @@
 class Solution {
 public:
-    //1. Recursion + Memo
+//1. Recursion + Memo
     /*
     int fn(int i,int buy,vector<int>& prices,vector<vector<int>>& dp){
         if(i==prices.size()) return 0;
@@ -21,7 +21,7 @@ public:
     */
 
     //2. Bottom Up
-
+    /*
     int maxProfit(vector<int>& prices) {
         int n = prices.size();
         vector<vector<int>> dp(n+1,vector<int>(2,0));
@@ -39,5 +39,27 @@ public:
             }
         }
         return dp[0][1];
+    }
+    */
+
+    //3. Space optimised: 
+    int maxProfit(vector<int>& prices) {
+        int n = prices.size();
+        vector<int> front(2,0),curr(2,0);
+
+        for(int i=n-1;i>=0;i--){
+            for(int buy=0;buy<2;buy++){
+                long profit = 0;
+                if(buy){
+                    profit = max(-prices[i] + front[0],0+front[1]);
+                }
+                else{
+                    profit = max(prices[i] + front[1],0+front[0]);
+                }
+                curr[buy] = profit;
+            }
+            front = curr;
+        }
+        return front[1];
     }
 };
