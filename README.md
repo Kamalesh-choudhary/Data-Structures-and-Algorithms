@@ -2,7 +2,7 @@
 > My personal collection of DSA and coding problem solutions.
 ---
 ## What is this?
-This repository contains my solutions to Data Structures & Algorithms problems, solved as part of my interview preparation and practice. Previously synced from NeetCode, this is now maintained manually as I add new problems and revisit old ones.
+This repository contains my solutions to Data Structures & Algorithms problems, this is now maintained manually as I add new problems and revisit old ones.
  
 I use this repo as both a practice log and a personal reference — a place to look back at how I approached a problem earlier, and to track how my solutions get cleaner and more efficient over time.
 ---
