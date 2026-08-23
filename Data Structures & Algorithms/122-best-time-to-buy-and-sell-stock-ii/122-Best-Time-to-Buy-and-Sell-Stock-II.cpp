@@ -1,9 +1,9 @@
 class Solution {
 public:
-    int fn(int i,bool buy,vector<int>& prices,vector<vector<int>>& dp){
+    int fn(int i,int buy,vector<int>& prices,vector<vector<int>>& dp){
         if(i==prices.size()) return 0;
         if(dp[i][buy] != -1) return  dp[i][buy];
-        long long profit = 0;
+        int profit = 0;
         if(buy){
             profit = max(-prices[i] + fn(i+1,!buy,prices,dp),0+fn(i+1,buy,prices,dp));
         }
@@ -14,6 +14,6 @@ public:
     }
     int maxProfit(vector<int>& prices) {
         vector<vector<int>> dp(prices.size(),vector<int>(2,-1));
-        return fn(0,true,prices,dp);
+        return fn(0,1,prices,dp);
     }
 };
