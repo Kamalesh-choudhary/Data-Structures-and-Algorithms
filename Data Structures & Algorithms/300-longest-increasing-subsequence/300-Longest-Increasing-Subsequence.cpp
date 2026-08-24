@@ -53,6 +53,8 @@ public:
         return front[0];
     }
     */
+
+    //4. Binary Search Approach
     int lengthOfLIS(vector<int>& nums) {
         int n = nums.size();
         vector<int> temp;
