@@ -37,6 +37,7 @@ public:
     */
 
     //3. Space Optimization
+    /*
     int lengthOfLIS(vector<int>& nums) {
         int n = nums.size();
         vector<int> front(n+1,0),curr(n+1,0);
@@ -51,4 +52,21 @@ public:
         }
         return front[0];
     }
+    */
+    int lengthOfLIS(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> temp;
+        temp.push_back(nums.front());
+        for(int i=1;i<n;i++){
+            if(temp.back() < nums[i]){
+                temp.push_back(nums[i]);
+            }
+            else{
+                int idx = lower_bound(temp.begin(),temp.end(),nums[i]) - temp.begin();
+                temp[idx] = nums[i];
+            }
+        }
+        return temp.size();
+    }
+
 };
