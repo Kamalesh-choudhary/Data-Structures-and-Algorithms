@@ -1,0 +1,87 @@
+import sys
+input = sys.stdin.readline
+ 
+def build_S(x: int) -> str:
+    res = []
+    while True:
+        res.append(str(x))
+        if x <= 9:
+            break
+        x = sum(int(d) for d in str(x))
+    return "".join(res)
+ 
+def solve():
+    t = int(input())
+    answers = []
+ 
+    for _ in range(t):
+        s = input().strip()
+ 
+        if len(s) == 1:
+            answers.append(s)
+            continue
+ 
+        freq = [0] * 10
+        total_sum = 0
+        for ch in s:
+            d = ord(ch) - 48
+            freq[d] += 1
+            total_sum += d
+ 
+        answer = None
+ 
+        for y in range(1, total_sum + 1):
+ 
+            tail = build_S(y)
+ 
+            need = [0] * 10
+            valid = True
+ 
+            for ch in tail:
+                d = ord(ch) - 48
+                need[d] += 1
+                if need[d] > freq[d]:
+                    valid = False
+                    break
+ 
+            if not valid:
+                continue
+ 
+            rem = [freq[d] - need[d] for d in range(10)]
+            rem_len = sum(rem)
+ 
+            if rem_len == 0:
+                continue
+ 
+            rem_sum = sum(d * rem[d] for d in range(10))
+            if rem_sum != y:
+                continue
+ 
+            first = -1
+            for d in range(1, 10):
+                if rem[d] > 0:
+                    first = d
+                    break
+ 
+            if first == -1:
+                continue  
+            rem[first] -= 1
+            x_parts = [str(first)]
+ 
+            for d in range(10):
+                if rem[d] > 0:
+                    x_parts.append(str(d) * rem[d])
+ 
+            x_str = "".join(x_parts)
+ 
+            answer = x_str + tail
+            break
+ 
+        answers.append(answer)
+ 
+    print("
+".join(answers))
+ 
+ 
+if __name__ == "__main__":
+    solve()
