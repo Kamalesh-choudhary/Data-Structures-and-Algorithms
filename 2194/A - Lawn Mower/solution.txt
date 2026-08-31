@@ -1,0 +1,11 @@
+def solve(n,w):
+    if w==1:
+        return 0
+    group = n//w
+    extra = n%w
+    return group * (w-1)+min(extra,w-1)
+ 
+t = int(input())
+for _ in range(t):
+    n,w = map(int,input().split())
+    print(solve(n,w))
