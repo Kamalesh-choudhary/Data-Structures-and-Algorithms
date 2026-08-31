@@ -1,0 +1,20 @@
+def solve(matrix,n):
+    hmap = {}
+    for i in range(n):
+        for j in range(n):
+            if matrix[i][j] in hmap:
+                hmap[matrix[i][j]] += 1
+            else:
+                hmap[matrix[i][j]] = 1
+    for key,val in hmap.items():
+        if val > n*(n-1):
+            return "No"
+    return "Yes"
+ 
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    matrix = [list(map(int,input().split())) for _ in range(n)]
+    print(solve(matrix,n))   
+ 
+ 
