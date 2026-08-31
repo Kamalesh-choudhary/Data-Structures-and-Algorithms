@@ -1,0 +1,15 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    ar = list(map(int,input().split()))
+    max_ans= 0
+    ans = 0
+    temp = 0
+    for i in range(n):
+        if ar[temp] < ar[i]:
+            temp = i
+    ar[0],ar[temp] = ar[temp],ar[0]
+    for i in range(n):
+        max_ans = max(max_ans,ar[i])
+        ans += max_ans
+    print(ans)
