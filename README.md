@@ -6,21 +6,99 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1 | 1 |
+| 16 | 9 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [dp](#dp) (1)
+- [*special](#special) (1)
+- [brute force](#brute-force) (4)
+- [dp](#dp) (2)
+- [greedy](#greedy) (3)
+- [hashing](#hashing) (1)
+- [implementation](#implementation) (10)
+- [math](#math) (5)
+- [sortings](#sortings) (1)
+- [strings](#strings) (4)
 
 ---
+
+### *special
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 158A | [Next Round](https://codeforces.com/contest/158/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/158/A%20-%20Next%20Round/solution.py) |
+
+### brute force
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.py) |
+| 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.py) |
+| 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.py) |
+| 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.py) |
 
 ### dp
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 698A | [Vacations](https://codeforces.com/contest/698/problem/A) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/698/A%20-%20Vacations/solution.cpp) |
+| 2126B | [No Casino in the Mountains](https://codeforces.com/contest/2126/problem/B) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2126/B%20-%20No%20Casino%20in%20the%20Mountains/solution.py) |
+
+### greedy
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/50/A%20-%20Domino%20piling/solution.py) |
+| 2126B | [No Casino in the Mountains](https://codeforces.com/contest/2126/problem/B) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2126/B%20-%20No%20Casino%20in%20the%20Mountains/solution.py) |
+| 2128A | [Recycling Center](https://codeforces.com/contest/2128/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2128/A%20-%20Recycling%20Center/solution.py) |
+
+### hashing
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.py) |
+
+### implementation
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 59A | [Word](https://codeforces.com/contest/59/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/59/A%20-%20Word/solution.py) |
+| 112A | [Petya and Strings](https://codeforces.com/contest/112/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/112/A%20-%20Petya%20and%20Strings/solution.py) |
+| 158A | [Next Round](https://codeforces.com/contest/158/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/158/A%20-%20Next%20Round/solution.py) |
+| 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.py) |
+| 263A | [Beautiful Matrix](https://codeforces.com/contest/263/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/263/A%20-%20Beautiful%20Matrix/solution.py) |
+| 266A | [Stones on the Table](https://codeforces.com/contest/266/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/266/A%20-%20Stones%20on%20the%20Table/solution.py) |
+| 281A | [Word Capitalization](https://codeforces.com/contest/281/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/281/A%20-%20Word%20Capitalization/solution.py) |
+| 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.py) |
+| 791A | [Bear and Big Brother](https://codeforces.com/contest/791/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/791/A%20-%20Bear%20and%20Big%20Brother/solution.py) |
+| 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.py) |
+
+### math
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/50/A%20-%20Domino%20piling/solution.py) |
+| 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.py) |
+| 617A | [Elephant](https://codeforces.com/contest/617/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/617/A%20-%20Elephant/solution.py) |
+| 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.py) |
+| 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.py) |
+
+### sortings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2128A | [Recycling Center](https://codeforces.com/contest/2128/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2128/A%20-%20Recycling%20Center/solution.py) |
+
+### strings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 59A | [Word](https://codeforces.com/contest/59/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/59/A%20-%20Word/solution.py) |
+| 112A | [Petya and Strings](https://codeforces.com/contest/112/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/112/A%20-%20Petya%20and%20Strings/solution.py) |
+| 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.py) |
+| 281A | [Word Capitalization](https://codeforces.com/contest/281/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/281/A%20-%20Word%20Capitalization/solution.py) |
 
 ---
 
