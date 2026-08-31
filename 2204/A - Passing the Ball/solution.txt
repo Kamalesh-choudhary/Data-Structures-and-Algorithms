@@ -1,0 +1,14 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    sequence = input()
+    indexes = set()
+    curr = 0
+    indexes.add(curr)
+    for i in range(n):
+        if sequence[curr] == "R":
+            curr += 1
+        else:
+            curr -= 1
+        indexes.add(curr)
+    print(len(indexes))
