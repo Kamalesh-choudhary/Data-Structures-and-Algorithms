@@ -1,0 +1,26 @@
+t = int(input())
+for _ in range(t):
+    n,m,h = map(int,input().split())
+    ar = list(map(int,input().split()))
+    operations = []
+    modifyable = list(ar)
+    crash = -1
+    modified = []
+    for i in range(m):
+        b,c = map(int,input().split())
+        operations.append((b-1,c))
+    for i in range(m):
+        idx,val = operations[i]
+        if modifyable[idx] + val > h:
+            crash = i
+            for prev in modified:
+                modifyable[prev] = ar[prev]
+            modified = []
+        else:
+            modifyable[idx] += val
+            modified.append(idx)
+    answer = list(ar)
+    for i in range(crash+1,m):
+        idx,val = operations[i]
+        answer[idx] += val
+    print(*answer)
