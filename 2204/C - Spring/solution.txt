@@ -1,0 +1,21 @@
+import math
+t = int(input())
+for _ in range(t):
+    a,b,c,m = map(int,input().split())
+    A = m//a
+    B = m//b
+    C = m//c
+    AB = m//math.lcm(a,b)
+    BC = m//math.lcm(b,c)
+    AC = m//math.lcm(a,c)
+    ABC = m//math.lcm(a,b,c)
+    AB -= ABC
+    BC -= ABC
+    AC -= ABC
+    A -= (AB+AC+ABC)
+    B -= (AB+BC+ABC)
+    C -= (AC+BC+ABC)
+    print(A*6 + (AB+AC)*3 + ABC*2, end = " ")
+    print(B*6 + (AB+BC)*3 + ABC*2, end = " ")
+    print(C*6 + (AC+BC)*3 + ABC*2, end = "
+")
