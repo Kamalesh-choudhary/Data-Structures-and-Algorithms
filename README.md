@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 151 | 21 |
+| 166 | 22 |
 
 ---
 
@@ -15,23 +15,24 @@
 - [*special](#special) (1)
 - [binary search](#binary-search) (6)
 - [bitmasks](#bitmasks) (2)
-- [brute force](#brute-force) (25)
-- [constructive algorithms](#constructive-algorithms) (10)
-- [data structures](#data-structures) (2)
+- [brute force](#brute-force) (29)
+- [constructive algorithms](#constructive-algorithms) (13)
+- [data structures](#data-structures) (3)
 - [dfs and similar](#dfs-and-similar) (1)
-- [dp](#dp) (6)
+- [dp](#dp) (7)
 - [expression parsing](#expression-parsing) (1)
+- [games](#games) (1)
 - [geometry](#geometry) (2)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (30)
+- [greedy](#greedy) (41)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (112)
-- [math](#math) (39)
-- [number theory](#number-theory) (6)
+- [implementation](#implementation) (118)
+- [math](#math) (46)
+- [number theory](#number-theory) (7)
 - [shortest paths](#shortest-paths) (1)
-- [sortings](#sortings) (16)
-- [strings](#strings) (30)
+- [sortings](#sortings) (18)
+- [strings](#strings) (31)
 - [two pointers](#two-pointers) (7)
 
 ---
@@ -83,12 +84,16 @@
 | 1873A | [Short Sort](https://codeforces.com/contest/1873/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1873/A%20-%20Short%20Sort/solution.cpp) |
 | 2009B | [osu!mania](https://codeforces.com/contest/2009/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2009/B%20-%20osu!mania/solution.cpp) |
 | 2065A | [Skibidus and Amog'u](https://codeforces.com/contest/2065/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2065/A%20-%20Skibidus%20and%20Amog'u/solution.cpp) |
+| 2104B | [Move to the End](https://codeforces.com/contest/2104/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2104/B%20-%20Move%20to%20the%20End/solution.cpp) |
 | 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.py) |
 | 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.py) |
 | 2156B | [Strange Machine](https://codeforces.com/contest/2156/problem/B) | 1000 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2156/B%20-%20Strange%20Machine/solution.rs) |
+| 2167D | [Yet Another Array Problem](https://codeforces.com/contest/2167/problem/D) | 1000 | [C++20 (GCC 13-64)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2167/D%20-%20Yet%20Another%20Array%20Problem/solution.cpp) |
 | 2194C | [Secret message](https://codeforces.com/contest/2194/problem/C) | 1300 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2194/C%20-%20Secret%20message/solution.txt) |
 | 2204A | [Passing the Ball](https://codeforces.com/contest/2204/problem/A) | 800 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2204/A%20-%20Passing%20the%20Ball/solution.txt) |
 | 2204E | [Sum of Digits (and Again)](https://codeforces.com/contest/2204/problem/E) | 1800 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2204/E%20-%20Sum%20of%20Digits%20(and%20Again)/solution.txt) |
+| 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.cpp) |
+| 2225B | [Alternating String](https://codeforces.com/contest/2225/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2225/B%20-%20Alternating%20String/solution.cpp) |
 
 ### constructive algorithms
 
@@ -104,12 +109,16 @@
 | 2204D | [Alternating Path](https://codeforces.com/contest/2204/problem/D) | 1400 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2204/D%20-%20Alternating%20Path/solution.txt) |
 | 2204E | [Sum of Digits (and Again)](https://codeforces.com/contest/2204/problem/E) | 1800 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2204/E%20-%20Sum%20of%20Digits%20(and%20Again)/solution.txt) |
 | 2208A | [Bingo Candies](https://codeforces.com/contest/2208/problem/A) | 800 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2208/A%20-%20Bingo%20Candies/solution.txt) |
+| 2218C | [The 67th Permutation Problem](https://codeforces.com/contest/2218/problem/C) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2218/C%20-%20The%2067th%20Permutation%20Problem/solution.cpp) |
+| 2224A | [Zhily and Array Operating](https://codeforces.com/contest/2224/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2224/A%20-%20Zhily%20and%20Array%20Operating/solution.cpp) |
+| 2224B | [Zhily and Mex and Max](https://codeforces.com/contest/2224/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2224/B%20-%20Zhily%20and%20Mex%20and%20Max/solution.cpp) |
 
 ### data structures
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1703B | [ICPC Balloons](https://codeforces.com/contest/1703/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1703/B%20-%20ICPC%20Balloons/solution.cpp) |
+| 2104B | [Move to the End](https://codeforces.com/contest/2104/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2104/B%20-%20Move%20to%20the%20End/solution.cpp) |
 | 2185D | [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2185/D%20-%20OutOfMemoryError/solution.txt) |
 
 ### dfs and similar
@@ -126,6 +135,7 @@
 | 698A | [Vacations](https://codeforces.com/contest/698/problem/A) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/698/A%20-%20Vacations/solution.cpp) |
 | 702A | [Maximum Increase](https://codeforces.com/contest/702/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/702/A%20-%20Maximum%20Increase/solution.cpp) |
 | 996A | [Hit the Lottery](https://codeforces.com/contest/996/problem/A) | 800 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/996/A%20-%20Hit%20the%20Lottery/solution.rs) |
+| 2104B | [Move to the End](https://codeforces.com/contest/2104/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2104/B%20-%20Move%20to%20the%20End/solution.cpp) |
 | 2126B | [No Casino in the Mountains](https://codeforces.com/contest/2126/problem/B) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2126/B%20-%20No%20Casino%20in%20the%20Mountains/solution.py) |
 | 2194C | [Secret message](https://codeforces.com/contest/2194/problem/C) | 1300 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2194/C%20-%20Secret%20message/solution.txt) |
 
@@ -134,6 +144,12 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 32B | [Borze](https://codeforces.com/contest/32/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/32/B%20-%20Borze/solution.cpp) |
+
+### games
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.cpp) |
 
 ### geometry
 
@@ -179,8 +195,10 @@
 | 1760B | [Atilla's Favorite Problem](https://codeforces.com/contest/1760/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1760/B%20-%20Atilla's%20Favorite%20Problem/solution.cpp) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.cpp) |
 | 2065A | [Skibidus and Amog'u](https://codeforces.com/contest/2065/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2065/A%20-%20Skibidus%20and%20Amog'u/solution.cpp) |
+| 2104B | [Move to the End](https://codeforces.com/contest/2104/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2104/B%20-%20Move%20to%20the%20End/solution.cpp) |
 | 2126B | [No Casino in the Mountains](https://codeforces.com/contest/2126/problem/B) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2126/B%20-%20No%20Casino%20in%20the%20Mountains/solution.py) |
 | 2128A | [Recycling Center](https://codeforces.com/contest/2128/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2128/A%20-%20Recycling%20Center/solution.py) |
+| 2145B | [Deck of Cards](https://codeforces.com/contest/2145/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2145/B%20-%20Deck%20of%20Cards/solution.cpp) |
 | 2156B | [Strange Machine](https://codeforces.com/contest/2156/problem/B) | 1000 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2156/B%20-%20Strange%20Machine/solution.rs) |
 | 2185B | [Prefix Max](https://codeforces.com/contest/2185/problem/B) | 800 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2185/B%20-%20Prefix%20Max/solution.txt) |
 | 2185E | [The Robotic Rush](https://codeforces.com/contest/2185/problem/E) | 1500 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2185/E%20-%20The%20Robotic%20Rush/solution.rs) |
@@ -189,6 +207,15 @@
 | 2204B | [Right Maximum](https://codeforces.com/contest/2204/problem/B) | 800 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2204/B%20-%20Right%20Maximum/solution.txt) |
 | 2209A | [Flip Flops](https://codeforces.com/contest/2209/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2209/A%20-%20Flip%20Flops/solution.cpp) |
 | 2209B | [Array](https://codeforces.com/contest/2209/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2209/B%20-%20Array/solution.cpp) |
+| 2218B | [The 67th 6-7 Integer Problem](https://codeforces.com/contest/2218/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2218/B%20-%20The%2067th%206-7%20Integer%20Problem/solution.cpp) |
+| 2218C | [The 67th Permutation Problem](https://codeforces.com/contest/2218/problem/C) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2218/C%20-%20The%2067th%20Permutation%20Problem/solution.cpp) |
+| 2220A | [Blocked](https://codeforces.com/contest/2220/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2220/A%20-%20Blocked/solution.cpp) |
+| 2220B | [OIE Excursion](https://codeforces.com/contest/2220/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2220/B%20-%20OIE%20Excursion/solution.cpp) |
+| 2224A | [Zhily and Array Operating](https://codeforces.com/contest/2224/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2224/A%20-%20Zhily%20and%20Array%20Operating/solution.cpp) |
+| 2224B | [Zhily and Mex and Max](https://codeforces.com/contest/2224/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2224/B%20-%20Zhily%20and%20Mex%20and%20Max/solution.cpp) |
+| 2225A | [A Number Between Two Others](https://codeforces.com/contest/2225/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2225/A%20-%20A%20Number%20Between%20Two%20Others/solution.cpp) |
+| 2225B | [Alternating String](https://codeforces.com/contest/2225/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2225/B%20-%20Alternating%20String/solution.cpp) |
+| 2227B | [Party Monster](https://codeforces.com/contest/2227/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2227/B%20-%20Party%20Monster/solution.cpp) |
 
 ### hashing
 
@@ -304,14 +331,20 @@
 | 1985A | [Creating Words](https://codeforces.com/contest/1985/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1985/A%20-%20Creating%20Words/solution.cpp) |
 | 1999A | [A+B Again?](https://codeforces.com/contest/1999/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1999/A%20-%20A%2BB%20Again%3F/solution.cpp) |
 | 2009B | [osu!mania](https://codeforces.com/contest/2009/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2009/B%20-%20osu!mania/solution.cpp) |
+| 2044B | [Normal Problem](https://codeforces.com/contest/2044/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2044/B%20-%20Normal%20Problem/solution.cpp) |
 | 2065A | [Skibidus and Amog'u](https://codeforces.com/contest/2065/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2065/A%20-%20Skibidus%20and%20Amog'u/solution.cpp) |
+| 2104B | [Move to the End](https://codeforces.com/contest/2104/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2104/B%20-%20Move%20to%20the%20End/solution.cpp) |
 | 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.py) |
+| 2145B | [Deck of Cards](https://codeforces.com/contest/2145/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2145/B%20-%20Deck%20of%20Cards/solution.cpp) |
 | 2156B | [Strange Machine](https://codeforces.com/contest/2156/problem/B) | 1000 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2156/B%20-%20Strange%20Machine/solution.rs) |
+| 2167D | [Yet Another Array Problem](https://codeforces.com/contest/2167/problem/D) | 1000 | [C++20 (GCC 13-64)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2167/D%20-%20Yet%20Another%20Array%20Problem/solution.cpp) |
 | 2185C | [Shifted MEX](https://codeforces.com/contest/2185/problem/C) | 900 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2185/C%20-%20Shifted%20MEX/solution.txt) |
 | 2185D | [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2185/D%20-%20OutOfMemoryError/solution.txt) |
 | 2185E | [The Robotic Rush](https://codeforces.com/contest/2185/problem/E) | 1500 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2185/E%20-%20The%20Robotic%20Rush/solution.rs) |
 | 2194B | [Offshores](https://codeforces.com/contest/2194/problem/B) | 1000 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2194/B%20-%20Offshores/solution.txt) |
 | 2204A | [Passing the Ball](https://codeforces.com/contest/2204/problem/A) | 800 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2204/A%20-%20Passing%20the%20Ball/solution.txt) |
+| 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.cpp) |
+| 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2227/A%20-%20Koshary/solution.cpp) |
 
 ### math
 
@@ -348,6 +381,7 @@
 | 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.py) |
 | 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.py) |
 | 2167A | [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2167/A%20-%20Square%3F/solution.rs) |
+| 2167D | [Yet Another Array Problem](https://codeforces.com/contest/2167/problem/D) | 1000 | [C++20 (GCC 13-64)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2167/D%20-%20Yet%20Another%20Array%20Problem/solution.cpp) |
 | 2185A | [Perfect Root](https://codeforces.com/contest/2185/problem/A) | 800 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2185/A%20-%20Perfect%20Root/solution.txt) |
 | 2185D | [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2185/D%20-%20OutOfMemoryError/solution.txt) |
 | 2194A | [Lawn Mower](https://codeforces.com/contest/2194/problem/A) | 800 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2194/A%20-%20Lawn%20Mower/solution.txt) |
@@ -356,6 +390,12 @@
 | 2204C | [Spring](https://codeforces.com/contest/2204/problem/C) | 1000 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2204/C%20-%20Spring/solution.txt) |
 | 2204E | [Sum of Digits (and Again)](https://codeforces.com/contest/2204/problem/E) | 1800 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2204/E%20-%20Sum%20of%20Digits%20(and%20Again)/solution.txt) |
 | 2208A | [Bingo Candies](https://codeforces.com/contest/2208/problem/A) | 800 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2208/A%20-%20Bingo%20Candies/solution.txt) |
+| 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.cpp) |
+| 2218B | [The 67th 6-7 Integer Problem](https://codeforces.com/contest/2218/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2218/B%20-%20The%2067th%206-7%20Integer%20Problem/solution.cpp) |
+| 2218C | [The 67th Permutation Problem](https://codeforces.com/contest/2218/problem/C) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2218/C%20-%20The%2067th%20Permutation%20Problem/solution.cpp) |
+| 2224B | [Zhily and Mex and Max](https://codeforces.com/contest/2224/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2224/B%20-%20Zhily%20and%20Mex%20and%20Max/solution.cpp) |
+| 2225A | [A Number Between Two Others](https://codeforces.com/contest/2225/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2225/A%20-%20A%20Number%20Between%20Two%20Others/solution.cpp) |
+| 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2227/A%20-%20Koshary/solution.cpp) |
 
 ### number theory
 
@@ -365,6 +405,7 @@
 | 749A | [Bachgold Problem](https://codeforces.com/contest/749/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/749/A%20-%20Bachgold%20Problem/solution.cpp) |
 | 1370A | [Maximum GCD](https://codeforces.com/contest/1370/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1370/A%20-%20Maximum%20GCD/solution.cpp) |
 | 1475A | [Odd Divisor](https://codeforces.com/contest/1475/problem/A) | 900 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1475/A%20-%20Odd%20Divisor/solution.rs) |
+| 2167D | [Yet Another Array Problem](https://codeforces.com/contest/2167/problem/D) | 1000 | [C++20 (GCC 13-64)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2167/D%20-%20Yet%20Another%20Array%20Problem/solution.cpp) |
 | 2194C | [Secret message](https://codeforces.com/contest/2194/problem/C) | 1300 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2194/C%20-%20Secret%20message/solution.txt) |
 | 2204C | [Spring](https://codeforces.com/contest/2204/problem/C) | 1000 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2204/C%20-%20Spring/solution.txt) |
 
@@ -394,6 +435,8 @@
 | 2167A | [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2167/A%20-%20Square%3F/solution.rs) |
 | 2167B | [Your Name](https://codeforces.com/contest/2167/problem/B) | 800 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2167/B%20-%20Your%20Name/solution.rs) |
 | 2185C | [Shifted MEX](https://codeforces.com/contest/2185/problem/C) | 900 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2185/C%20-%20Shifted%20MEX/solution.txt) |
+| 2220A | [Blocked](https://codeforces.com/contest/2220/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2220/A%20-%20Blocked/solution.cpp) |
+| 2224B | [Zhily and Mex and Max](https://codeforces.com/contest/2224/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2224/B%20-%20Zhily%20and%20Mex%20and%20Max/solution.cpp) |
 
 ### strings
 
@@ -427,6 +470,7 @@
 | 1850C | [Word on the Paper](https://codeforces.com/contest/1850/problem/C) | 800 | [C++20 (GCC 13-64)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1850/C%20-%20Word%20on%20the%20Paper/solution.cpp) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.cpp) |
 | 1985A | [Creating Words](https://codeforces.com/contest/1985/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1985/A%20-%20Creating%20Words/solution.cpp) |
+| 2044B | [Normal Problem](https://codeforces.com/contest/2044/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2044/B%20-%20Normal%20Problem/solution.cpp) |
 | 2065A | [Skibidus and Amog'u](https://codeforces.com/contest/2065/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2065/A%20-%20Skibidus%20and%20Amog'u/solution.cpp) |
 | 2167B | [Your Name](https://codeforces.com/contest/2167/problem/B) | 800 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2167/B%20-%20Your%20Name/solution.rs) |
 
