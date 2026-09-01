@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 205 | 26 |
+| 206 | 26 |
 
 ---
 
@@ -14,14 +14,14 @@
 
 - [*special](#special) (1)
 - [Uncategorized](#uncategorized) (2)
-- [binary search](#binary-search) (10)
+- [binary search](#binary-search) (11)
 - [bitmasks](#bitmasks) (3)
 - [brute force](#brute-force) (41)
 - [combinatorics](#combinatorics) (1)
 - [constructive algorithms](#constructive-algorithms) (17)
 - [data structures](#data-structures) (6)
 - [dfs and similar](#dfs-and-similar) (3)
-- [dp](#dp) (28)
+- [dp](#dp) (29)
 - [expression parsing](#expression-parsing) (1)
 - [games](#games) (2)
 - [geometry](#geometry) (2)
@@ -29,7 +29,7 @@
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (55)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (129)
+- [implementation](#implementation) (130)
 - [interactive](#interactive) (1)
 - [math](#math) (60)
 - [number theory](#number-theory) (10)
@@ -37,7 +37,7 @@
 - [sortings](#sortings) (24)
 - [strings](#strings) (33)
 - [trees](#trees) (2)
-- [two pointers](#two-pointers) (11)
+- [two pointers](#two-pointers) (12)
 
 ---
 
@@ -62,6 +62,7 @@
 | 701C | [They Are Everywhere](https://codeforces.com/contest/701/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/701/C%20-%20They%20Are%20Everywhere/solution.cpp) |
 | 706B | [Interesting drink](https://codeforces.com/contest/706/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/706/B%20-%20Interesting%20drink/solution.cpp) |
 | 750A | [New Year and Hurry](https://codeforces.com/contest/750/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/750/A%20-%20New%20Year%20and%20Hurry/solution.cpp) |
+| 1354B | [Ternary String](https://codeforces.com/contest/1354/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1354/B%20-%20Ternary%20String/solution.cpp) |
 | 1915C | [Can I Square?](https://codeforces.com/contest/1915/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1915/C%20-%20Can%20I%20Square%3F/solution.cpp) |
 | 2156B | [Strange Machine](https://codeforces.com/contest/2156/problem/B) | 1000 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2156/B%20-%20Strange%20Machine/solution.rs) |
 | 2185E | [The Robotic Rush](https://codeforces.com/contest/2185/problem/E) | 1500 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2185/E%20-%20The%20Robotic%20Rush/solution.rs) |
@@ -192,6 +193,7 @@
 | 1097B | [Petr and a Combination Lock](https://codeforces.com/contest/1097/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1097/B%20-%20Petr%20and%20a%20Combination%20Lock/solution.cpp) |
 | 1195C | [Basketball Exercise](https://codeforces.com/contest/1195/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1195/C%20-%20Basketball%20Exercise/solution.cpp) |
 | 1343C | [Alternating Subsequence](https://codeforces.com/contest/1343/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1343/C%20-%20Alternating%20Subsequence/solution.cpp) |
+| 1354B | [Ternary String](https://codeforces.com/contest/1354/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1354/B%20-%20Ternary%20String/solution.cpp) |
 | 1472B | [Fair Division](https://codeforces.com/contest/1472/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1472/B%20-%20Fair%20Division/solution.cpp) |
 | 1475B | [New Year's Number](https://codeforces.com/contest/1475/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1475/B%20-%20New%20Year's%20Number/solution.cpp) |
 | 1526B | [I Hate 1111](https://codeforces.com/contest/1526/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1526/B%20-%20I%20Hate%201111/solution.cpp) |
@@ -376,6 +378,7 @@
 | 977A | [Wrong Subtraction](https://codeforces.com/contest/977/problem/A) | 800 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/977/A%20-%20Wrong%20Subtraction/solution.rs) |
 | 1030A | [In Search of an Easy Problem](https://codeforces.com/contest/1030/problem/A) | 800 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1030/A%20-%20In%20Search%20of%20an%20Easy%20Problem/solution.rs) |
 | 1352A | [Sum of Round Numbers](https://codeforces.com/contest/1352/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1352/A%20-%20Sum%20of%20Round%20Numbers/solution.cpp) |
+| 1354B | [Ternary String](https://codeforces.com/contest/1354/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1354/B%20-%20Ternary%20String/solution.cpp) |
 | 1367A | [Short Substrings](https://codeforces.com/contest/1367/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1367/A%20-%20Short%20Substrings/solution.cpp) |
 | 1370A | [Maximum GCD](https://codeforces.com/contest/1370/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1370/A%20-%20Maximum%20GCD/solution.cpp) |
 | 1426A | [Floor Number](https://codeforces.com/contest/1426/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1426/A%20-%20Floor%20Number/solution.cpp) |
@@ -613,6 +616,7 @@
 | 489B | [BerSU Ball](https://codeforces.com/contest/489/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/489/B%20-%20BerSU%20Ball/solution.cpp) |
 | 701C | [They Are Everywhere](https://codeforces.com/contest/701/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/701/C%20-%20They%20Are%20Everywhere/solution.cpp) |
 | 1343C | [Alternating Subsequence](https://codeforces.com/contest/1343/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1343/C%20-%20Alternating%20Subsequence/solution.cpp) |
+| 1354B | [Ternary String](https://codeforces.com/contest/1354/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1354/B%20-%20Ternary%20String/solution.cpp) |
 | 1791C | [Prepend and Append](https://codeforces.com/contest/1791/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1791/C%20-%20Prepend%20and%20Append/solution.cpp) |
 | 2185D | [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2185/D%20-%20OutOfMemoryError/solution.txt) |
 | 2185E | [The Robotic Rush](https://codeforces.com/contest/2185/problem/E) | 1500 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2185/E%20-%20The%20Robotic%20Rush/solution.rs) |
