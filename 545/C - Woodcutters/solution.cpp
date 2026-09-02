@@ -30,13 +30,8 @@ void solve() {
   cin >> n;
   vi coordinate(n);
   vi height(n);
-  i32 i = 0;
-  while (i < n) {
-    i32 x, h;
-    cin >> x >> h;
-    coordinate[i] = x;
-    height[i] = h;
-    i++;
+  for (int i = 0; i < n; i++) {
+    cin >> coordinate[i] >> height[i];
   }
  
   i32 c = min(n, 2);
