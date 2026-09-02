@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 210 | 27 |
+| 211 | 27 |
 
 ---
 
@@ -16,12 +16,12 @@
 - [Uncategorized](#uncategorized) (2)
 - [binary search](#binary-search) (12)
 - [bitmasks](#bitmasks) (3)
-- [brute force](#brute-force) (42)
+- [brute force](#brute-force) (43)
 - [combinatorics](#combinatorics) (1)
 - [constructive algorithms](#constructive-algorithms) (17)
 - [data structures](#data-structures) (7)
 - [dfs and similar](#dfs-and-similar) (3)
-- [dp](#dp) (33)
+- [dp](#dp) (34)
 - [dsu](#dsu) (1)
 - [expression parsing](#expression-parsing) (1)
 - [games](#games) (2)
@@ -32,7 +32,7 @@
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (132)
 - [interactive](#interactive) (1)
-- [math](#math) (60)
+- [math](#math) (61)
 - [number theory](#number-theory) (10)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (24)
@@ -96,6 +96,7 @@
 | 479A | [Expression](https://codeforces.com/contest/479/problem/A) | 1000 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/479/A%20-%20Expression/solution.rs) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.py) |
 | 550A | [Two Substrings](https://codeforces.com/contest/550/problem/A) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/550/A%20-%20Two%20Substrings/solution.cpp) |
+| 550C | [Divisibility by Eight](https://codeforces.com/contest/550/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/550/C%20-%20Divisibility%20by%20Eight/solution.cpp) |
 | 580A | [Kefa and First Steps](https://codeforces.com/contest/580/problem/A) | 900 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/580/A%20-%20Kefa%20and%20First%20Steps/solution.rs) |
 | 732A | [Buy a Shovel](https://codeforces.com/contest/732/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/732/A%20-%20Buy%20a%20Shovel/solution.cpp) |
 | 750A | [New Year and Hurry](https://codeforces.com/contest/750/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/750/A%20-%20New%20Year%20and%20Hurry/solution.cpp) |
@@ -190,6 +191,7 @@
 | 489C | [Given Length and Sum of Digits...](https://codeforces.com/contest/489/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/489/C%20-%20Given%20Length%20and%20Sum%20of%20Digits.../solution.cpp) |
 | 545C | [Woodcutters](https://codeforces.com/contest/545/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/545/C%20-%20Woodcutters/solution.cpp) |
 | 550A | [Two Substrings](https://codeforces.com/contest/550/problem/A) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/550/A%20-%20Two%20Substrings/solution.cpp) |
+| 550C | [Divisibility by Eight](https://codeforces.com/contest/550/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/550/C%20-%20Divisibility%20by%20Eight/solution.cpp) |
 | 580A | [Kefa and First Steps](https://codeforces.com/contest/580/problem/A) | 900 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/580/A%20-%20Kefa%20and%20First%20Steps/solution.rs) |
 | 698A | [Vacations](https://codeforces.com/contest/698/problem/A) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/698/A%20-%20Vacations/solution.cpp) |
 | 702A | [Maximum Increase](https://codeforces.com/contest/702/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/702/A%20-%20Maximum%20Increase/solution.cpp) |
@@ -480,6 +482,7 @@
 | 479A | [Expression](https://codeforces.com/contest/479/problem/A) | 1000 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/479/A%20-%20Expression/solution.rs) |
 | 486A | [Calculating Function](https://codeforces.com/contest/486/problem/A) | 800 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/486/A%20-%20Calculating%20Function/solution.rs) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.py) |
+| 550C | [Divisibility by Eight](https://codeforces.com/contest/550/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/550/C%20-%20Divisibility%20by%20Eight/solution.cpp) |
 | 581A | [Vasya the Hipster](https://codeforces.com/contest/581/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/581/A%20-%20Vasya%20the%20Hipster/solution.cpp) |
 | 617A | [Elephant](https://codeforces.com/contest/617/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/617/A%20-%20Elephant/solution.py) |
 | 723A | [The New Year: Meeting Friends](https://codeforces.com/contest/723/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/723/A%20-%20The%20New%20Year%3A%20Meeting%20Friends/solution.cpp) |
