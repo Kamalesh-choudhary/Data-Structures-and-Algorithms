@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 214 | 27 |
+| 215 | 27 |
 
 ---
 
@@ -21,7 +21,7 @@
 - [constructive algorithms](#constructive-algorithms) (17)
 - [data structures](#data-structures) (8)
 - [dfs and similar](#dfs-and-similar) (3)
-- [dp](#dp) (37)
+- [dp](#dp) (38)
 - [dsu](#dsu) (1)
 - [expression parsing](#expression-parsing) (1)
 - [games](#games) (3)
@@ -32,8 +32,8 @@
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (133)
 - [interactive](#interactive) (1)
-- [math](#math) (61)
-- [number theory](#number-theory) (10)
+- [math](#math) (62)
+- [number theory](#number-theory) (11)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (26)
 - [strings](#strings) (33)
@@ -205,6 +205,7 @@
 | 1272C | [Yet Another Broken Keyboard](https://codeforces.com/contest/1272/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1272/C%20-%20Yet%20Another%20Broken%20Keyboard/solution.cpp) |
 | 1285B | [Just Eat It!](https://codeforces.com/contest/1285/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1285/B%20-%20Just%20Eat%20It!/solution.cpp) |
 | 1343C | [Alternating Subsequence](https://codeforces.com/contest/1343/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1343/C%20-%20Alternating%20Subsequence/solution.cpp) |
+| 1350B | [Orac and Models](https://codeforces.com/contest/1350/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1350/B%20-%20Orac%20and%20Models/solution.cpp) |
 | 1354B | [Ternary String](https://codeforces.com/contest/1354/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1354/B%20-%20Ternary%20String/solution.cpp) |
 | 1472B | [Fair Division](https://codeforces.com/contest/1472/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1472/B%20-%20Fair%20Division/solution.cpp) |
 | 1472D | [Even-Odd Game](https://codeforces.com/contest/1472/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1472/D%20-%20Even-Odd%20Game/solution.cpp) |
@@ -501,6 +502,7 @@
 | 750A | [New Year and Hurry](https://codeforces.com/contest/750/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/750/A%20-%20New%20Year%20and%20Hurry/solution.cpp) |
 | 758A | [Holiday Of Equality](https://codeforces.com/contest/758/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/758/A%20-%20Holiday%20Of%20Equality/solution.cpp) |
 | 1328A | [Divisibility Problem](https://codeforces.com/contest/1328/problem/A) | 800 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1328/A%20-%20Divisibility%20Problem/solution.rs) |
+| 1350B | [Orac and Models](https://codeforces.com/contest/1350/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1350/B%20-%20Orac%20and%20Models/solution.cpp) |
 | 1352A | [Sum of Round Numbers](https://codeforces.com/contest/1352/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1352/A%20-%20Sum%20of%20Round%20Numbers/solution.cpp) |
 | 1370A | [Maximum GCD](https://codeforces.com/contest/1370/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1370/A%20-%20Maximum%20GCD/solution.cpp) |
 | 1374B | [Multiply by 2, divide by 6](https://codeforces.com/contest/1374/problem/B) | 900 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1374/B%20-%20Multiply%20by%202%2C%20divide%20by%206/solution.rs) |
@@ -549,6 +551,7 @@
 |---|---------|------------|----------|
 | 122A | [Lucky Division](https://codeforces.com/contest/122/problem/A) | 1000 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/122/A%20-%20Lucky%20Division/solution.rs) |
 | 749A | [Bachgold Problem](https://codeforces.com/contest/749/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/749/A%20-%20Bachgold%20Problem/solution.cpp) |
+| 1350B | [Orac and Models](https://codeforces.com/contest/1350/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1350/B%20-%20Orac%20and%20Models/solution.cpp) |
 | 1370A | [Maximum GCD](https://codeforces.com/contest/1370/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1370/A%20-%20Maximum%20GCD/solution.cpp) |
 | 1475A | [Odd Divisor](https://codeforces.com/contest/1475/problem/A) | 900 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1475/A%20-%20Odd%20Divisor/solution.rs) |
 | 1526B | [I Hate 1111](https://codeforces.com/contest/1526/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1526/B%20-%20I%20Hate%201111/solution.cpp) |
