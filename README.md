@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 212 | 27 |
+| 213 | 27 |
 
 ---
 
@@ -17,11 +17,11 @@
 - [binary search](#binary-search) (13)
 - [bitmasks](#bitmasks) (3)
 - [brute force](#brute-force) (43)
-- [combinatorics](#combinatorics) (1)
+- [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (17)
 - [data structures](#data-structures) (8)
 - [dfs and similar](#dfs-and-similar) (3)
-- [dp](#dp) (35)
+- [dp](#dp) (36)
 - [dsu](#dsu) (1)
 - [expression parsing](#expression-parsing) (1)
 - [games](#games) (2)
@@ -30,7 +30,7 @@
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (59)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (132)
+- [implementation](#implementation) (133)
 - [interactive](#interactive) (1)
 - [math](#math) (61)
 - [number theory](#number-theory) (10)
@@ -133,6 +133,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1272C | [Yet Another Broken Keyboard](https://codeforces.com/contest/1272/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1272/C%20-%20Yet%20Another%20Broken%20Keyboard/solution.cpp) |
 | 2240B | [AI Finds Nothing Here](https://codeforces.com/contest/2240/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2240/B%20-%20AI%20Finds%20Nothing%20Here/solution.cpp) |
 
 ### constructive algorithms
@@ -201,6 +202,7 @@
 | 996A | [Hit the Lottery](https://codeforces.com/contest/996/problem/A) | 800 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/996/A%20-%20Hit%20the%20Lottery/solution.rs) |
 | 1097B | [Petr and a Combination Lock](https://codeforces.com/contest/1097/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1097/B%20-%20Petr%20and%20a%20Combination%20Lock/solution.cpp) |
 | 1195C | [Basketball Exercise](https://codeforces.com/contest/1195/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1195/C%20-%20Basketball%20Exercise/solution.cpp) |
+| 1272C | [Yet Another Broken Keyboard](https://codeforces.com/contest/1272/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1272/C%20-%20Yet%20Another%20Broken%20Keyboard/solution.cpp) |
 | 1285B | [Just Eat It!](https://codeforces.com/contest/1285/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1285/B%20-%20Just%20Eat%20It!/solution.cpp) |
 | 1343C | [Alternating Subsequence](https://codeforces.com/contest/1343/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1343/C%20-%20Alternating%20Subsequence/solution.cpp) |
 | 1354B | [Ternary String](https://codeforces.com/contest/1354/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1354/B%20-%20Ternary%20String/solution.cpp) |
@@ -400,6 +402,7 @@
 | 791A | [Bear and Big Brother](https://codeforces.com/contest/791/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/791/A%20-%20Bear%20and%20Big%20Brother/solution.py) |
 | 977A | [Wrong Subtraction](https://codeforces.com/contest/977/problem/A) | 800 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/977/A%20-%20Wrong%20Subtraction/solution.rs) |
 | 1030A | [In Search of an Easy Problem](https://codeforces.com/contest/1030/problem/A) | 800 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1030/A%20-%20In%20Search%20of%20an%20Easy%20Problem/solution.rs) |
+| 1272C | [Yet Another Broken Keyboard](https://codeforces.com/contest/1272/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1272/C%20-%20Yet%20Another%20Broken%20Keyboard/solution.cpp) |
 | 1285B | [Just Eat It!](https://codeforces.com/contest/1285/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1285/B%20-%20Just%20Eat%20It!/solution.cpp) |
 | 1352A | [Sum of Round Numbers](https://codeforces.com/contest/1352/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1352/A%20-%20Sum%20of%20Round%20Numbers/solution.cpp) |
 | 1354B | [Ternary String](https://codeforces.com/contest/1354/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1354/B%20-%20Ternary%20String/solution.cpp) |
