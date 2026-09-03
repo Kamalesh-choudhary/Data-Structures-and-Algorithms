@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 217 | 27 |
+| 218 | 27 |
 
 ---
 
@@ -19,16 +19,16 @@
 - [brute force](#brute-force) (43)
 - [combinatorics](#combinatorics) (3)
 - [constructive algorithms](#constructive-algorithms) (17)
-- [data structures](#data-structures) (8)
+- [data structures](#data-structures) (9)
 - [dfs and similar](#dfs-and-similar) (3)
-- [dp](#dp) (40)
+- [dp](#dp) (41)
 - [dsu](#dsu) (1)
 - [expression parsing](#expression-parsing) (1)
 - [games](#games) (3)
 - [geometry](#geometry) (2)
 - [graph matchings](#graph-matchings) (3)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (61)
+- [greedy](#greedy) (62)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (133)
 - [interactive](#interactive) (1)
@@ -166,6 +166,7 @@
 |---|---------|------------|----------|
 | 1703B | [ICPC Balloons](https://codeforces.com/contest/1703/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1703/B%20-%20ICPC%20Balloons/solution.cpp) |
 | 1703F | [Yet Another Problem About Pairs Satisfying an Inequality](https://codeforces.com/contest/1703/problem/F) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1703/F%20-%20Yet%20Another%20Problem%20About%20Pairs%20Satisfying%20an%20Inequality/solution.cpp) |
+| 1919C | [Grouping Increases](https://codeforces.com/contest/1919/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1919/C%20-%20Grouping%20Increases/solution.cpp) |
 | 1927D | [Find the Different Ones!](https://codeforces.com/contest/1927/problem/D) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1927/D%20-%20Find%20the%20Different%20Ones!/solution.cpp) |
 | 2104B | [Move to the End](https://codeforces.com/contest/2104/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2104/B%20-%20Move%20to%20the%20End/solution.cpp) |
 | 2185D | [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2185/D%20-%20OutOfMemoryError/solution.txt) |
@@ -218,6 +219,7 @@
 | 1703F | [Yet Another Problem About Pairs Satisfying an Inequality](https://codeforces.com/contest/1703/problem/F) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1703/F%20-%20Yet%20Another%20Problem%20About%20Pairs%20Satisfying%20an%20Inequality/solution.cpp) |
 | 1883C | [Raspberries](https://codeforces.com/contest/1883/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1883/C%20-%20Raspberries/solution.cpp) |
 | 1914D | [Three Activities](https://codeforces.com/contest/1914/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1914/D%20-%20Three%20Activities/solution.cpp) |
+| 1919C | [Grouping Increases](https://codeforces.com/contest/1919/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1919/C%20-%20Grouping%20Increases/solution.cpp) |
 | 1926C | [Vlad and a Sum of Sum of Digits](https://codeforces.com/contest/1926/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1926/C%20-%20Vlad%20and%20a%20Sum%20of%20Sum%20of%20Digits/solution.cpp) |
 | 1927D | [Find the Different Ones!](https://codeforces.com/contest/1927/problem/D) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1927/D%20-%20Find%20the%20Different%20Ones!/solution.cpp) |
 | 2104B | [Move to the End](https://codeforces.com/contest/2104/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2104/B%20-%20Move%20to%20the%20End/solution.cpp) |
@@ -303,6 +305,7 @@
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.cpp) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.cpp) |
 | 1914D | [Three Activities](https://codeforces.com/contest/1914/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1914/D%20-%20Three%20Activities/solution.cpp) |
+| 1919C | [Grouping Increases](https://codeforces.com/contest/1919/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1919/C%20-%20Grouping%20Increases/solution.cpp) |
 | 1927D | [Find the Different Ones!](https://codeforces.com/contest/1927/problem/D) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1927/D%20-%20Find%20the%20Different%20Ones!/solution.cpp) |
 | 2065A | [Skibidus and Amog'u](https://codeforces.com/contest/2065/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2065/A%20-%20Skibidus%20and%20Amog'u/solution.cpp) |
 | 2104B | [Move to the End](https://codeforces.com/contest/2104/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2104/B%20-%20Move%20to%20the%20End/solution.cpp) |
