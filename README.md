@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 223 | 27 |
+| 224 | 27 |
 
 ---
 
@@ -17,18 +17,18 @@
 - [binary search](#binary-search) (14)
 - [bitmasks](#bitmasks) (3)
 - [brute force](#brute-force) (43)
-- [combinatorics](#combinatorics) (3)
+- [combinatorics](#combinatorics) (4)
 - [constructive algorithms](#constructive-algorithms) (17)
 - [data structures](#data-structures) (9)
 - [dfs and similar](#dfs-and-similar) (3)
-- [dp](#dp) (42)
+- [dp](#dp) (43)
 - [dsu](#dsu) (1)
 - [expression parsing](#expression-parsing) (1)
 - [games](#games) (3)
 - [geometry](#geometry) (2)
 - [graph matchings](#graph-matchings) (3)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (63)
+- [greedy](#greedy) (64)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (133)
 - [interactive](#interactive) (1)
@@ -140,6 +140,7 @@
 |---|---------|------------|----------|
 | 414B | [Mashmokh and ACM](https://codeforces.com/contest/414/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/414/B%20-%20Mashmokh%20and%20ACM/solution.cpp) |
 | 1272C | [Yet Another Broken Keyboard](https://codeforces.com/contest/1272/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1272/C%20-%20Yet%20Another%20Broken%20Keyboard/solution.cpp) |
+| 1879C | [Make it Alternating](https://codeforces.com/contest/1879/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1879/C%20-%20Make%20it%20Alternating/solution.cpp) |
 | 2240B | [AI Finds Nothing Here](https://codeforces.com/contest/2240/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2240/B%20-%20AI%20Finds%20Nothing%20Here/solution.cpp) |
 
 ### constructive algorithms
@@ -222,6 +223,7 @@
 | 1475B | [New Year's Number](https://codeforces.com/contest/1475/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1475/B%20-%20New%20Year's%20Number/solution.cpp) |
 | 1526B | [I Hate 1111](https://codeforces.com/contest/1526/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1526/B%20-%20I%20Hate%201111/solution.cpp) |
 | 1703F | [Yet Another Problem About Pairs Satisfying an Inequality](https://codeforces.com/contest/1703/problem/F) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1703/F%20-%20Yet%20Another%20Problem%20About%20Pairs%20Satisfying%20an%20Inequality/solution.cpp) |
+| 1879C | [Make it Alternating](https://codeforces.com/contest/1879/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1879/C%20-%20Make%20it%20Alternating/solution.cpp) |
 | 1883C | [Raspberries](https://codeforces.com/contest/1883/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1883/C%20-%20Raspberries/solution.cpp) |
 | 1914D | [Three Activities](https://codeforces.com/contest/1914/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1914/D%20-%20Three%20Activities/solution.cpp) |
 | 1919C | [Grouping Increases](https://codeforces.com/contest/1919/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1919/C%20-%20Grouping%20Increases/solution.cpp) |
@@ -309,6 +311,7 @@
 | 1703F | [Yet Another Problem About Pairs Satisfying an Inequality](https://codeforces.com/contest/1703/problem/F) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1703/F%20-%20Yet%20Another%20Problem%20About%20Pairs%20Satisfying%20an%20Inequality/solution.cpp) |
 | 1742B | [Increasing](https://codeforces.com/contest/1742/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1742/B%20-%20Increasing/solution.cpp) |
 | 1760B | [Atilla's Favorite Problem](https://codeforces.com/contest/1760/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1760/B%20-%20Atilla's%20Favorite%20Problem/solution.cpp) |
+| 1879C | [Make it Alternating](https://codeforces.com/contest/1879/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1879/C%20-%20Make%20it%20Alternating/solution.cpp) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.cpp) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.cpp) |
 | 1914D | [Three Activities](https://codeforces.com/contest/1914/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1914/D%20-%20Three%20Activities/solution.cpp) |
