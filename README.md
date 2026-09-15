@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 230 | 27 |
+| 231 | 27 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [*special](#special) (1)
+- [*special](#special) (2)
 - [Uncategorized](#uncategorized) (10)
 - [binary search](#binary-search) (15)
 - [bitmasks](#bitmasks) (3)
@@ -46,6 +46,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 130E | [Tribonacci numbers](https://codeforces.com/contest/130/problem/E) | 1600 | [Befunge](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/130/E%20-%20Tribonacci%20numbers/solution.txt) |
 | 158A | [Next Round](https://codeforces.com/contest/158/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/158/A%20-%20Next%20Round/solution.py) |
 
 ### Uncategorized
