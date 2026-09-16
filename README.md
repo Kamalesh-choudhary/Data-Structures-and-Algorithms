@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 231 | 27 |
+| 232 | 27 |
 
 ---
 
@@ -30,9 +30,9 @@
 - [graphs](#graphs) (2)
 - [greedy](#greedy) (64)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (133)
+- [implementation](#implementation) (134)
 - [interactive](#interactive) (1)
-- [math](#math) (63)
+- [math](#math) (64)
 - [number theory](#number-theory) (12)
 - [shortest paths](#shortest-paths) (2)
 - [sortings](#sortings) (27)
@@ -435,6 +435,7 @@
 | 791A | [Bear and Big Brother](https://codeforces.com/contest/791/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/791/A%20-%20Bear%20and%20Big%20Brother/solution.py) |
 | 977A | [Wrong Subtraction](https://codeforces.com/contest/977/problem/A) | 800 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/977/A%20-%20Wrong%20Subtraction/solution.rs) |
 | 1030A | [In Search of an Easy Problem](https://codeforces.com/contest/1030/problem/A) | 800 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1030/A%20-%20In%20Search%20of%20an%20Easy%20Problem/solution.rs) |
+| 1203C | [Common Divisors](https://codeforces.com/contest/1203/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1203/C%20-%20Common%20Divisors/solution.cpp) |
 | 1272C | [Yet Another Broken Keyboard](https://codeforces.com/contest/1272/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1272/C%20-%20Yet%20Another%20Broken%20Keyboard/solution.cpp) |
 | 1285B | [Just Eat It!](https://codeforces.com/contest/1285/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1285/B%20-%20Just%20Eat%20It!/solution.cpp) |
 | 1352A | [Sum of Round Numbers](https://codeforces.com/contest/1352/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1352/A%20-%20Sum%20of%20Round%20Numbers/solution.cpp) |
@@ -530,6 +531,7 @@
 | 749A | [Bachgold Problem](https://codeforces.com/contest/749/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/749/A%20-%20Bachgold%20Problem/solution.cpp) |
 | 750A | [New Year and Hurry](https://codeforces.com/contest/750/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/750/A%20-%20New%20Year%20and%20Hurry/solution.cpp) |
 | 758A | [Holiday Of Equality](https://codeforces.com/contest/758/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/758/A%20-%20Holiday%20Of%20Equality/solution.cpp) |
+| 1203C | [Common Divisors](https://codeforces.com/contest/1203/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1203/C%20-%20Common%20Divisors/solution.cpp) |
 | 1328A | [Divisibility Problem](https://codeforces.com/contest/1328/problem/A) | 800 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1328/A%20-%20Divisibility%20Problem/solution.rs) |
 | 1350B | [Orac and Models](https://codeforces.com/contest/1350/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1350/B%20-%20Orac%20and%20Models/solution.cpp) |
 | 1352A | [Sum of Round Numbers](https://codeforces.com/contest/1352/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1352/A%20-%20Sum%20of%20Round%20Numbers/solution.cpp) |
