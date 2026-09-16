@@ -34,15 +34,17 @@ public:
       g = gcd(g, x);
     }
  
-    i64 cnt = 0;
- 
-    for (i64 i = 1; i * i <= g; i++) {
-      if (g % i == 0) {
-        cnt++;
-        if (i != g / i)
-          cnt++;
+    i64 cnt = 1;
+    for (i64 i = 2; i * i <= g; i++) {
+      i64 tmp = 0;
+      while (g % i == 0) {
+        g /= i;
+        tmp++;
       }
+      cnt *= (tmp + 1);
     }
+    if (g > 1)
+      cnt *= 2;
  
     cout << cnt << endl;
   }
