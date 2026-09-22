@@ -1,20 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
+using ll = long long;
  
 int main(){
-  int t;
-  cin >> t;
-  while(t--){
-    vector<int> integers(7);
-    int ans = INT_MIN;
-    int summ = 0;
-    int maximum = INT_MIN;
-    for(auto &x:integers){
-      cin >> x;
-      summ += x;
-      maximum = max(maximum,x);
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    
+    int t;
+    cin >> t;
+    while(t--){
+        int a,b,c,d,e,f,g;
+        cin >> a >> b >> c >> d >> e >> f >> g;
+        int total = a+b+c+d+e+f+g;
+        int maximum = max(a,max(b,max(c,max(d,max(e,max(f,g))))));
+        total -= maximum;
+        cout << -total + maximum << endl;
     }
-    ans = summ - (2*maximum);
-    cout << ans*(-1) << endl;
-  }
 }
