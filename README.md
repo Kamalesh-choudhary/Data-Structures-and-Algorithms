@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 238 | 27 |
+| 239 | 27 |
 
 ---
 
@@ -20,14 +20,14 @@
 - [combinatorics](#combinatorics) (4)
 - [constructive algorithms](#constructive-algorithms) (20)
 - [data structures](#data-structures) (10)
-- [dfs and similar](#dfs-and-similar) (3)
+- [dfs and similar](#dfs-and-similar) (4)
 - [dp](#dp) (44)
 - [dsu](#dsu) (1)
 - [expression parsing](#expression-parsing) (1)
 - [games](#games) (3)
 - [geometry](#geometry) (2)
 - [graph matchings](#graph-matchings) (3)
-- [graphs](#graphs) (2)
+- [graphs](#graphs) (3)
 - [greedy](#greedy) (67)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (136)
@@ -37,7 +37,7 @@
 - [shortest paths](#shortest-paths) (2)
 - [sortings](#sortings) (27)
 - [strings](#strings) (34)
-- [trees](#trees) (2)
+- [trees](#trees) (3)
 - [two pointers](#two-pointers) (15)
 
 ---
@@ -199,6 +199,7 @@
 |---|---------|------------|----------|
 | 161D | [Distance in Tree](https://codeforces.com/contest/161/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/161/D%20-%20Distance%20in%20Tree/solution.cpp) |
 | 489B | [BerSU Ball](https://codeforces.com/contest/489/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/489/B%20-%20BerSU%20Ball/solution.cpp) |
+| 580C | [Kefa and Park](https://codeforces.com/contest/580/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/580/C%20-%20Kefa%20and%20Park/solution.cpp) |
 | 2204D | [Alternating Path](https://codeforces.com/contest/2204/problem/D) | 1400 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2204/D%20-%20Alternating%20Path/solution.txt) |
 
 ### dp
@@ -289,6 +290,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 580C | [Kefa and Park](https://codeforces.com/contest/580/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/580/C%20-%20Kefa%20and%20Park/solution.cpp) |
 | 1418C | [Mortal Kombat Tower](https://codeforces.com/contest/1418/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1418/C%20-%20Mortal%20Kombat%20Tower/solution.cpp) |
 | 2204D | [Alternating Path](https://codeforces.com/contest/2204/problem/D) | 1400 | [PyPy 3-64](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2204/D%20-%20Alternating%20Path/solution.txt) |
 
@@ -693,6 +695,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 161D | [Distance in Tree](https://codeforces.com/contest/161/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/161/D%20-%20Distance%20in%20Tree/solution.cpp) |
+| 580C | [Kefa and Park](https://codeforces.com/contest/580/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/580/C%20-%20Kefa%20and%20Park/solution.cpp) |
 | 2258C | [Far Cities](https://codeforces.com/contest/2258/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2258/C%20-%20Far%20Cities/solution.cpp) |
 
 ### two pointers
