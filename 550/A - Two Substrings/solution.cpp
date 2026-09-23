@@ -1,8 +1,3 @@
-/*
- * Author : Kamalesh Choudhary
- * Date   : 31-08-2026
- */
- 
 #include <bits/stdc++.h>
 using namespace std;
  
@@ -24,49 +19,53 @@ const i32 MOD = 1'000'000'007;
 const i32 INF = 1'000'000'000;
 const i64 LINF = 4'000'000'000'000'000'000LL;
  
-void solve() {
+class Solution {
+public:
+  void solve() {
     string s;
     cin >> s;
- 
     i32 n = s.size();
-    bool ab = false,ba = false;
+ 
+    bool ab = false, ba = false;
     i32 i = 0;
-    while(i<n){
-        if(!ab && s[i] == 'A' && i+1<n && s[i+1] == 'B'){
-            ab = true;
-            i++;
-        }
-        else if(ab && s[i] == 'B' && i+1<n && s[i+1] == 'A'){
-            ba = true;
-            i++;
+    while (i < n) {
+      if (!ab && s[i] == 'A' && i + 1 < n && s[i + 1] == 'B') {
+        ab = true;
+        i++;
+      } else if (ab && s[i] == 'B' && i + 1 < n && s[i + 1] == 'A') {
+        ba = true;
+        i++;
+      }
+      i++;
+    }
+    if ((ab && !ba) || (!ab && ba)) {
+      i = 0;
+      ab = false;
+      ba = false;
+      while (i < n) {
+        if (!ba && s[i] == 'B' && i + 1 < n && s[i + 1] == 'A') {
+          ba = true;
+          i++;
+        } else if (ba && s[i] == 'A' && i + 1 < n && s[i + 1] == 'B') {
+          ab = true;
+          i++;
         }
         i++;
+      }
     }
-    if((ab && !ba) || (!ab && ba)){
-        ab = false;
-        ba = false;
-        i = 0;
-        while(i<n){
-            if(!ba && s[i] == 'B' && i+1<n && s[i+1] == 'A'){
-                ba = true;
-                i++;
-            }
-            else if(ba && s[i] == 'A' && i+1<n && s[i+1] == 'B'){
-                ab = true;
-                i++;
-            }
-            i++;
-        }
-    }
-    if(ab && ba )cout << "YES" << endl;
-    else cout << "NO" << endl;
-}
+    if (ab && ba)
+      cout << "YES" << endl;
+    else
+      cout << "NO" << endl;
+  }
+};
  
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+  ios::sync_with_stdio(false);
+  cin.tie(nullptr);
  
-    solve();
+  Solution sol;
  
-    return 0;
+  sol.solve();
+  return 0;
 }
