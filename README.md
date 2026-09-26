@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 242 | 27 |
+| 244 | 27 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (2)
-- [Uncategorized](#uncategorized) (14)
+- [Uncategorized](#uncategorized) (16)
 - [binary search](#binary-search) (15)
 - [bitmasks](#bitmasks) (3)
 - [brute force](#brute-force) (46)
@@ -67,6 +67,8 @@
 | 2267B | [Fashionable Array](https://codeforces.com/contest/2267/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2267/B%20-%20Fashionable%20Array/solution.cpp) |
 | 2267D | [Backrooms Hill](https://codeforces.com/contest/2267/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2267/D%20-%20Backrooms%20Hill/solution.cpp) |
 | 2267E | [Clean Substrings](https://codeforces.com/contest/2267/problem/E) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2267/E%20-%20Clean%20Substrings/solution.cpp) |
+| 2269A | [SauSaGe Bank](https://codeforces.com/contest/2269/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2269/A%20-%20SauSaGe%20Bank/solution.cpp) |
+| 2269C | [K Is Important](https://codeforces.com/contest/2269/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2269/C%20-%20K%20Is%20Important/solution.cpp) |
 
 ### binary search
 
