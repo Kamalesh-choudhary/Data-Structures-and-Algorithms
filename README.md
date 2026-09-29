@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 245 | 27 |
+| 246 | 27 |
 
 ---
 
@@ -24,15 +24,15 @@
 - [dp](#dp) (44)
 - [dsu](#dsu) (1)
 - [expression parsing](#expression-parsing) (1)
-- [games](#games) (3)
+- [games](#games) (4)
 - [geometry](#geometry) (2)
 - [graph matchings](#graph-matchings) (3)
 - [graphs](#graphs) (3)
-- [greedy](#greedy) (67)
+- [greedy](#greedy) (68)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (136)
 - [interactive](#interactive) (1)
-- [math](#math) (68)
+- [math](#math) (69)
 - [number theory](#number-theory) (15)
 - [shortest paths](#shortest-paths) (2)
 - [sortings](#sortings) (27)
@@ -276,6 +276,7 @@
 | 1472D | [Even-Odd Game](https://codeforces.com/contest/1472/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1472/D%20-%20Even-Odd%20Game/solution.cpp) |
 | 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.cpp) |
 | 2258B1 | [Carrot Chopdown (Easy Version)](https://codeforces.com/contest/2258/problem/B1) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2258/B1%20-%20Carrot%20Chopdown%20(Easy%20Version)/solution.cpp) |
+| 2266B | [Three Piles](https://codeforces.com/contest/2266/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2266/B%20-%20Three%20Piles/solution.cpp) |
 
 ### geometry
 
@@ -371,6 +372,7 @@
 | 2240A | [Another Popcount Problem](https://codeforces.com/contest/2240/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2240/A%20-%20Another%20Popcount%20Problem/solution.cpp) |
 | 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.cpp) |
 | 2258B2 | [Carrot Chopdown (Hard Version)](https://codeforces.com/contest/2258/problem/B2) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2258/B2%20-%20Carrot%20Chopdown%20(Hard%20Version)/solution.cpp) |
+| 2266B | [Three Piles](https://codeforces.com/contest/2266/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2266/B%20-%20Three%20Piles/solution.cpp) |
 
 ### hashing
 
@@ -597,6 +599,7 @@
 | 2258B1 | [Carrot Chopdown (Easy Version)](https://codeforces.com/contest/2258/problem/B1) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2258/B1%20-%20Carrot%20Chopdown%20(Easy%20Version)/solution.cpp) |
 | 2258B2 | [Carrot Chopdown (Hard Version)](https://codeforces.com/contest/2258/problem/B2) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2258/B2%20-%20Carrot%20Chopdown%20(Hard%20Version)/solution.cpp) |
 | 2264D | [Dr. Agos's Dark Mode](https://codeforces.com/contest/2264/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2264/D%20-%20Dr.%20Agos's%20Dark%20Mode/solution.cpp) |
+| 2266B | [Three Piles](https://codeforces.com/contest/2266/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2266/B%20-%20Three%20Piles/solution.cpp) |
 
 ### number theory
 
