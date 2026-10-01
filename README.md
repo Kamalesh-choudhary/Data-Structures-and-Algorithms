@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 246 | 27 |
+| 247 | 27 |
 
 ---
 
@@ -19,7 +19,7 @@
 - [brute force](#brute-force) (46)
 - [combinatorics](#combinatorics) (4)
 - [constructive algorithms](#constructive-algorithms) (20)
-- [data structures](#data-structures) (10)
+- [data structures](#data-structures) (11)
 - [dfs and similar](#dfs-and-similar) (4)
 - [dp](#dp) (44)
 - [dsu](#dsu) (1)
@@ -28,14 +28,14 @@
 - [geometry](#geometry) (2)
 - [graph matchings](#graph-matchings) (3)
 - [graphs](#graphs) (3)
-- [greedy](#greedy) (68)
+- [greedy](#greedy) (69)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (136)
+- [implementation](#implementation) (137)
 - [interactive](#interactive) (1)
 - [math](#math) (69)
 - [number theory](#number-theory) (15)
 - [shortest paths](#shortest-paths) (2)
-- [sortings](#sortings) (27)
+- [sortings](#sortings) (28)
 - [strings](#strings) (34)
 - [trees](#trees) (3)
 - [two pointers](#two-pointers) (15)
@@ -188,6 +188,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 276C | [Little Girl and Maximum Sum](https://codeforces.com/contest/276/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/276/C%20-%20Little%20Girl%20and%20Maximum%20Sum/solution.cpp) |
 | 466C | [Number of Ways](https://codeforces.com/contest/466/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/466/C%20-%20Number%20of%20Ways/solution.cpp) |
 | 1703B | [ICPC Balloons](https://codeforces.com/contest/1703/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1703/B%20-%20ICPC%20Balloons/solution.cpp) |
 | 1703F | [Yet Another Problem About Pairs Satisfying an Inequality](https://codeforces.com/contest/1703/problem/F) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1703/F%20-%20Yet%20Another%20Problem%20About%20Pairs%20Satisfying%20an%20Inequality/solution.cpp) |
@@ -311,6 +312,7 @@
 | 160A | [Twins](https://codeforces.com/contest/160/problem/A) | 900 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/160/A%20-%20Twins/solution.rs) |
 | 230A | [Dragons](https://codeforces.com/contest/230/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/230/A%20-%20Dragons/solution.cpp) |
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/231/A%20-%20Team/solution.rs) |
+| 276C | [Little Girl and Maximum Sum](https://codeforces.com/contest/276/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/276/C%20-%20Little%20Girl%20and%20Maximum%20Sum/solution.cpp) |
 | 337A | [Puzzles](https://codeforces.com/contest/337/problem/A) | 900 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/337/A%20-%20Puzzles/solution.rs) |
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.cpp) |
 | 381A | [Sereja and Dima](https://codeforces.com/contest/381/problem/A) | 800 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/381/A%20-%20Sereja%20and%20Dima/solution.rs) |
@@ -409,6 +411,7 @@
 | 263A | [Beautiful Matrix](https://codeforces.com/contest/263/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/263/A%20-%20Beautiful%20Matrix/solution.py) |
 | 266A | [Stones on the Table](https://codeforces.com/contest/266/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/266/A%20-%20Stones%20on%20the%20Table/solution.py) |
 | 266B | [Queue at the School](https://codeforces.com/contest/266/problem/B) | 800 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/266/B%20-%20Queue%20at%20the%20School/solution.rs) |
+| 276C | [Little Girl and Maximum Sum](https://codeforces.com/contest/276/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/276/C%20-%20Little%20Girl%20and%20Maximum%20Sum/solution.cpp) |
 | 279B | [Books](https://codeforces.com/contest/279/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/279/B%20-%20Books/solution.cpp) |
 | 281A | [Word Capitalization](https://codeforces.com/contest/281/problem/A) | 800 | [Python 3](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/281/A%20-%20Word%20Capitalization/solution.py) |
 | 282A | [Bit++](https://codeforces.com/contest/282/problem/A) | 800 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/282/A%20-%20Bit%2B%2B/solution.rs) |
@@ -635,6 +638,7 @@
 | 141A | [Amusing Joke](https://codeforces.com/contest/141/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/141/A%20-%20Amusing%20Joke/solution.cpp) |
 | 160A | [Twins](https://codeforces.com/contest/160/problem/A) | 900 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/160/A%20-%20Twins/solution.rs) |
 | 230A | [Dragons](https://codeforces.com/contest/230/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/230/A%20-%20Dragons/solution.cpp) |
+| 276C | [Little Girl and Maximum Sum](https://codeforces.com/contest/276/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/276/C%20-%20Little%20Girl%20and%20Maximum%20Sum/solution.cpp) |
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.cpp) |
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.rs) |
 | 432A | [Choosing Teams](https://codeforces.com/contest/432/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/432/A%20-%20Choosing%20Teams/solution.cpp) |
