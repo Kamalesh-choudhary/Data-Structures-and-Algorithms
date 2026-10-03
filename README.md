@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 249 | 27 |
+| 250 | 27 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (2)
 - [Uncategorized](#uncategorized) (17)
-- [binary search](#binary-search) (16)
+- [binary search](#binary-search) (17)
 - [bitmasks](#bitmasks) (3)
 - [brute force](#brute-force) (47)
 - [combinatorics](#combinatorics) (4)
@@ -35,10 +35,10 @@
 - [math](#math) (70)
 - [number theory](#number-theory) (15)
 - [shortest paths](#shortest-paths) (2)
-- [sortings](#sortings) (28)
+- [sortings](#sortings) (29)
 - [strings](#strings) (34)
 - [trees](#trees) (3)
-- [two pointers](#two-pointers) (15)
+- [two pointers](#two-pointers) (16)
 
 ---
 
@@ -78,6 +78,7 @@
 | 279B | [Books](https://codeforces.com/contest/279/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/279/B%20-%20Books/solution.cpp) |
 | 371C | [Hamburgers](https://codeforces.com/contest/371/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/371/C%20-%20Hamburgers/solution.cpp) |
 | 466C | [Number of Ways](https://codeforces.com/contest/466/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/466/C%20-%20Number%20of%20Ways/solution.cpp) |
+| 580B | [Kefa and Company](https://codeforces.com/contest/580/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/580/B%20-%20Kefa%20and%20Company/solution.cpp) |
 | 701C | [They Are Everywhere](https://codeforces.com/contest/701/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/701/C%20-%20They%20Are%20Everywhere/solution.cpp) |
 | 706B | [Interesting drink](https://codeforces.com/contest/706/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/706/B%20-%20Interesting%20drink/solution.cpp) |
 | 750A | [New Year and Hurry](https://codeforces.com/contest/750/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/750/A%20-%20New%20Year%20and%20Hurry/solution.cpp) |
@@ -650,6 +651,7 @@
 | 433B | [Kuriyama Mirai's Stones](https://codeforces.com/contest/433/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/433/B%20-%20Kuriyama%20Mirai's%20Stones/solution.cpp) |
 | 489B | [BerSU Ball](https://codeforces.com/contest/489/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/489/B%20-%20BerSU%20Ball/solution.cpp) |
 | 490A | [Team Olympiad](https://codeforces.com/contest/490/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/490/A%20-%20Team%20Olympiad/solution.cpp) |
+| 580B | [Kefa and Company](https://codeforces.com/contest/580/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/580/B%20-%20Kefa%20and%20Company/solution.cpp) |
 | 723A | [The New Year: Meeting Friends](https://codeforces.com/contest/723/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/723/A%20-%20The%20New%20Year%3A%20Meeting%20Friends/solution.cpp) |
 | 1470A | [Strange Birthday Party](https://codeforces.com/contest/1470/problem/A) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1470/A%20-%20Strange%20Birthday%20Party/solution.cpp) |
 | 1472D | [Even-Odd Game](https://codeforces.com/contest/1472/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1472/D%20-%20Even-Odd%20Game/solution.cpp) |
@@ -725,6 +727,7 @@
 | 381A | [Sereja and Dima](https://codeforces.com/contest/381/problem/A) | 800 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/381/A%20-%20Sereja%20and%20Dima/solution.rs) |
 | 466C | [Number of Ways](https://codeforces.com/contest/466/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/466/C%20-%20Number%20of%20Ways/solution.cpp) |
 | 489B | [BerSU Ball](https://codeforces.com/contest/489/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/489/B%20-%20BerSU%20Ball/solution.cpp) |
+| 580B | [Kefa and Company](https://codeforces.com/contest/580/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/580/B%20-%20Kefa%20and%20Company/solution.cpp) |
 | 701C | [They Are Everywhere](https://codeforces.com/contest/701/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/701/C%20-%20They%20Are%20Everywhere/solution.cpp) |
 | 1343C | [Alternating Subsequence](https://codeforces.com/contest/1343/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1343/C%20-%20Alternating%20Subsequence/solution.cpp) |
 | 1354B | [Ternary String](https://codeforces.com/contest/1354/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/1354/B%20-%20Ternary%20String/solution.cpp) |
