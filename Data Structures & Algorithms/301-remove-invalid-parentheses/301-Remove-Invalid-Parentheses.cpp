@@ -2,7 +2,7 @@ class Solution {
 public:
     int longest_string;
     set<string> ans;
-
+    //Backtracking + DFS Approach (**Brute Force solution)
     void dfs(string& s,int idx,string& curr,int l_count,int r_count){
         if(idx == s.size()){
             if(l_count == r_count){
@@ -17,24 +17,24 @@ public:
             }
         }
         else{
-            char cur_char = s[idx];
-            if(cur_char == '('){
-                curr.push_back(cur_char);
+            char curr_char = s[idx];
+            if(curr_char == '('){
+                curr.push_back(curr_char);
                 dfs(s,idx+1,curr,l_count+1,r_count);
                 curr.pop_back();
                 
                 dfs(s,idx+1,curr,l_count,r_count);
             }
-            else if(cur_char == ')'){
+            else if(curr_char == ')'){
                 dfs(s,idx+1,curr,l_count,r_count);
                 if(l_count > r_count){
-                    curr.push_back(cur_char);
+                    curr.push_back(curr_char);
                     dfs(s,idx+1,curr,l_count,r_count+1);
                     curr.pop_back();
                 }
             }
             else{
-                curr.push_back(cur_char);
+                curr.push_back(curr_char);
                 dfs(s,idx+1,curr,l_count,r_count);
                 curr.pop_back();
             }
