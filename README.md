@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 256 | 27 |
+| 257 | 27 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (2)
-- [Uncategorized](#uncategorized) (21)
+- [Uncategorized](#uncategorized) (22)
 - [binary search](#binary-search) (17)
 - [bitmasks](#bitmasks) (3)
 - [brute force](#brute-force) (48)
@@ -74,6 +74,7 @@
 | 2275B | [Did Not Go to Print](https://codeforces.com/contest/2275/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2275/B%20-%20Did%20Not%20Go%20to%20Print/solution.cpp) |
 | 2275C | [Unrequited Love](https://codeforces.com/contest/2275/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2275/C%20-%20Unrequited%20Love/solution.cpp) |
 | 2275D | [Precision Alignment](https://codeforces.com/contest/2275/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2275/D%20-%20Precision%20Alignment/solution.cpp) |
+| 2275E | [Repentance Is Already on the Way](https://codeforces.com/contest/2275/problem/E) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2275/E%20-%20Repentance%20Is%20Already%20on%20the%20Way/solution.cpp) |
 
 ### binary search
 
