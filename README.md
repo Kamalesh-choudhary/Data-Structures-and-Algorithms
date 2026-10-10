@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 257 | 27 |
+| 258 | 27 |
 
 ---
 
@@ -30,15 +30,15 @@
 - [graphs](#graphs) (3)
 - [greedy](#greedy) (71)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (137)
+- [implementation](#implementation) (138)
 - [interactive](#interactive) (1)
 - [math](#math) (70)
 - [number theory](#number-theory) (15)
 - [shortest paths](#shortest-paths) (2)
-- [sortings](#sortings) (29)
+- [sortings](#sortings) (30)
 - [strings](#strings) (34)
 - [trees](#trees) (3)
-- [two pointers](#two-pointers) (16)
+- [two pointers](#two-pointers) (17)
 
 ---
 
@@ -539,6 +539,7 @@
 | 2230A | [Optimal Purchase](https://codeforces.com/contest/2230/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2230/A%20-%20Optimal%20Purchase/solution.cpp) |
 | 2256B | [Domino Tiles](https://codeforces.com/contest/2256/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2256/B%20-%20Domino%20Tiles/solution.cpp) |
 | 2258B2 | [Carrot Chopdown (Hard Version)](https://codeforces.com/contest/2258/problem/B2) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2258/B2%20-%20Carrot%20Chopdown%20(Hard%20Version)/solution.cpp) |
+| 2264A | [Rumb Needs a Hand](https://codeforces.com/contest/2264/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2264/A%20-%20Rumb%20Needs%20a%20Hand/solution.cpp) |
 
 ### interactive
 
@@ -681,6 +682,7 @@
 | 2220A | [Blocked](https://codeforces.com/contest/2220/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2220/A%20-%20Blocked/solution.cpp) |
 | 2224B | [Zhily and Mex and Max](https://codeforces.com/contest/2224/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2224/B%20-%20Zhily%20and%20Mex%20and%20Max/solution.cpp) |
 | 2256A | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2256/A%20-%20Three%20Numbers%20on%20the%20Blackboard/solution.cpp) |
+| 2264A | [Rumb Needs a Hand](https://codeforces.com/contest/2264/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2264/A%20-%20Rumb%20Needs%20a%20Hand/solution.cpp) |
 
 ### strings
 
@@ -749,6 +751,7 @@
 | 2185E | [The Robotic Rush](https://codeforces.com/contest/2185/problem/E) | 1500 | [Rust 2024](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2185/E%20-%20The%20Robotic%20Rush/solution.rs) |
 | 2227D | [Palindromex](https://codeforces.com/contest/2227/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2227/D%20-%20Palindromex/solution.cpp) |
 | 2258C | [Far Cities](https://codeforces.com/contest/2258/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2258/C%20-%20Far%20Cities/solution.cpp) |
+| 2264A | [Rumb Needs a Hand](https://codeforces.com/contest/2264/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kamalesh-choudhary/Data-Structures-and-Algorithms/blob/HEAD/2264/A%20-%20Rumb%20Needs%20a%20Hand/solution.cpp) |
 
 ---
 
