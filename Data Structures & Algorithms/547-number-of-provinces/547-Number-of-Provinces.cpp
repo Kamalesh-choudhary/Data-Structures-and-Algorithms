@@ -1,53 +1,57 @@
+// Solution using the Disjoint union set Data Structure.
+class DisJointSet{
+    vector<int> parent,size;
+public:
+    DisJointSet(int n){
+        parent.resize(n+1);
+        size.resize(n+1,1);
+        for(int i=0;i<=n;i++){
+            parent[i] = i;
+        }
+    }
+
+    int findParent(int x){
+        if (x == parent[x]) return x;
+        return parent[x] = findParent(parent[x]);
+    }
+
+    void UnionBySize(int u,int v){
+        int u_par = findParent(u);
+        int v_par = findParent(v);
+        if(u_par == v_par) return;
+        if(u_par < v_par){
+            parent[u_par] = v_par;
+            size[v_par] += size[u_par];
+        }
+        else{
+            parent[v_par] = u_par;
+            size[u_par] += size[v_par];
+        }
+    }
+
+    bool areConnected(int u,int v){
+        return findParent(u) == findParent(v);
+    }
+
+    int count_parent(){
+        int cnt = 0;
+        for(int i=0;i<parent.size();i++){
+            if(parent[i] == i) cnt++;
+        }
+        return cnt;
+    }
+};
+
 class Solution {
 public:
-    // BFS Solution
-    /*
     int findCircleNum(vector<vector<int>>& isConnected) {
         int n = isConnected.size();
-        vector<bool> vis(n+1,false);
-        
-        int count = 0;
-        for(int i=1;i<=n;i++){
-            if(!vis[i]){
-                count++;
-                queue<int> q;
-                q.push(i);
-                vis[i] = true;
-                while(!q.empty()){
-                    int e = q.front();q.pop();
-                    for(int i=0;i<isConnected[e-1].size();i++){
-                        if(isConnected[e-1][i] == 1 && !vis[i+1]){
-                            vis[i+1] = true;
-                            q.push(i+1);
-                        }
-                    }
-                }
+        DisJointSet ds(n);
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                if(isConnected[i][j]) ds.UnionBySize(i,j);
             }
         }
-
-        return count;
-    }
-    */
-
-    // DFS Solution
-    void dfs(int node,vector<vector<int>>& matrix,vector<bool>& vis){
-        vis[node] = true;
-        for(int i=0;i<matrix[node-1].size();i++){
-            if(matrix[node-1][i] == 1 && !vis[i+1]){
-                dfs(i+1,matrix,vis);
-            }
-        }
-    }
-    int findCircleNum(vector<vector<int>>& isConnected) {
-        int n = isConnected.size();
-        vector<bool> vis(n+1,false);
-        int count = 0;
-        for(int i=1;i<=n;i++){
-            if(!vis[i]){
-                count++;
-                dfs(i,isConnected,vis);
-            }
-        }
-        return count;
+        return ds.count_parent()-1;
     }
 };
