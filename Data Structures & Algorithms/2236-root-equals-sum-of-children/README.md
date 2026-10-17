@@ -40,4 +40,4 @@
 
 ---
 
-**My Solution:** [2236-Root-Equals-Sum-of-Children.cpp](./2236-Root-Equals-Sum-of-Children.cpp)
+**My Solution:** [2236-Root-Equals-Sum-of-Children.rs](./2236-Root-Equals-Sum-of-Children.rs)
