@@ -73,4 +73,4 @@
 
 ---
 
-**My Solution:** [3551-Minimum-Swaps-to-Sort-by-Digit-Sum.cpp](./3551-Minimum-Swaps-to-Sort-by-Digit-Sum.cpp)
+**My Solution:** [3551-Minimum-Swaps-to-Sort-by-Digit-Sum.rs](./3551-Minimum-Swaps-to-Sort-by-Digit-Sum.rs)
