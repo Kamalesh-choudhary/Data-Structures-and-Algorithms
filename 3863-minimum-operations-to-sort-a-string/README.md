@@ -68,4 +68,4 @@
 
 ---
 
-**My Solution:** [3863-Minimum-Operations-to-Sort-a-String.cpp](./3863-Minimum-Operations-to-Sort-a-String.cpp)
+**My Solution:** [3863-Minimum-Operations-to-Sort-a-String.rs](./3863-Minimum-Operations-to-Sort-a-String.rs)
