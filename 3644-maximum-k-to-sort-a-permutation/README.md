@@ -61,4 +61,4 @@
 
 ---
 
-**My Solution:** [3644-Maximum-K-to-Sort-a-Permutation.cpp](./3644-Maximum-K-to-Sort-a-Permutation.cpp)
+**My Solution:** [3644-Maximum-K-to-Sort-a-Permutation.rs](./3644-Maximum-K-to-Sort-a-Permutation.rs)
