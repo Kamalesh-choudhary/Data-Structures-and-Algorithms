@@ -2,27 +2,18 @@ impl Solution {
     pub fn sort_permutation(nums: Vec<i32>) -> i32 {
         let n = nums.len();
         let mut sorted = true;
+        let mut ans = -1;
         for i in 0..n {
-            if nums[i] as usize != i {
+            if(nums[i] != i as i32){
                 sorted = false;
+                ans &= nums[i];
             }
         }
         if sorted {
-            return 0;
+            0
         }
-
-        let mut ans = 0;
-        for bit in 0..32 {
-            let mut yes = true;
-            for i in 0..n {
-                if nums[i] as usize != i && (nums[i]&(1<<bit) == 0) {
-                    yes = false;
-                }
-            }
-            if yes {
-                ans |= (1<<bit);
-            }
+        else{
+            ans
         }
-        ans
     }
 }
