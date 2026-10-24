@@ -5,8 +5,8 @@ public:
         month = stoi(s.substr(0,2));
         day = stoi(s.substr(3,2));
     }
-    int dayOfYear() const {
-        static const int daysBefore[] = {0, 31, 59, 90, 120, 151,181, 212, 243, 273, 304, 334};
+    int dayOfYear() {
+        static int daysBefore[] = {0, 31, 59, 90, 120, 151,181, 212, 243, 273, 304, 334};
         return daysBefore[month - 1] + day;
     }
 };
