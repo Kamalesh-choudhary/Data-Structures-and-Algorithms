@@ -43,4 +43,4 @@
 
 ---
 
-**My Solution:** [2409-Count-Days-Spent-Together.cpp](./2409-Count-Days-Spent-Together.cpp)
+**My Solution:** [2409-Count-Days-Spent-Together.rs](./2409-Count-Days-Spent-Together.rs)
