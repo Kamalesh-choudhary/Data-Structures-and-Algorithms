@@ -1,24 +1,42 @@
 class Solution {
 public:
-    int m,n;
+    int m, n;
     vector<vector<vector<int>>> dp;
-    int solve(int i,int j,vector<vector<int>>& grid,int xor_val){
-        xor_val ^= grid[i][j];
-        if(dp[i][j][xor_val] != -1) return dp[i][j][xor_val];
-        if(i==m-1 && j==n-1) return xor_val;
-        int down = INT_MAX,right = INT_MAX;
-        if(i+1<m){
-            down = solve(i+1,j,grid,xor_val);
-        }
-        if(j+1<n){
-            right = solve(i,j+1,grid,xor_val);
-        }
-        return dp[i][j][xor_val] = min(down,right);
-    }
+
     int minCost(vector<vector<int>>& grid) {
         m = grid.size();
         n = grid[0].size();
-        dp.assign(m,vector<vector<int>>(n,vector<int>(1024,-1)));
-        return solve(0,0,grid,0);
+
+        dp.assign(m, vector<vector<int>>(n, vector<int>(1024, -1)));
+
+        // Base case: destination cell
+        for (int xor_val = 0; xor_val < 1024; xor_val++) {
+            dp[m - 1][n - 1][xor_val] = xor_val ^ grid[m - 1][n - 1];
+        }
+
+        for (int i = m - 1; i >= 0; i--) {
+            for (int j = n - 1; j >= 0; j--) {
+                if (i == m - 1 && j == n - 1) continue;
+
+                for (int xor_val = 0; xor_val < 1024; xor_val++) {
+                    int new_xor = xor_val ^ grid[i][j];
+
+                    int down = INT_MAX;
+                    int right = INT_MAX;
+
+                    if (i + 1 < m) {
+                        down = dp[i + 1][j][new_xor];
+                    }
+
+                    if (j + 1 < n) {
+                        right = dp[i][j + 1][new_xor];
+                    }
+
+                    dp[i][j][xor_val] = min(down, right);
+                }
+            }
+        }
+
+        return dp[0][0][0];
     }
 };
