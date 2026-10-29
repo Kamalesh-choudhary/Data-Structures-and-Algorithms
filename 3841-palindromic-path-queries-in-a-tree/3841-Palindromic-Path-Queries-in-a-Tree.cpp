@@ -1,30 +1,43 @@
+class FenwickXor {
+    int n;
+    vector<int> bit;
+
+public:
+    FenwickXor(int n = 0) { init(n); }
+
+    void init(int size) {
+        n = size;
+        bit.assign(n + 1, 0);
+    }
+
+    // XOR val into the difference array at position i (1-indexed)
+    void pointUpdate(int i, int val) {
+        for (; i <= n; i += i & -i)
+            bit[i] ^= val;
+    }
+
+    // XOR val onto every position in [l, r]
+    void rangeUpdate(int l, int r, int val) {
+        pointUpdate(l, val);
+        if (r < n) pointUpdate(r + 1, val);
+    }
+
+    // value at position i (prefix XOR of the difference array)
+    int pointQuery(int i) const {
+        int res = 0;
+        for (; i > 0; i -= i & -i)
+            res ^= bit[i];
+        return res;
+    }
+};
 
 class Solution {
 public:
     int n, LOG, timer;
     string s;
     vector<vector<int>> adj, up;
-    vector<int> tin, tout, depth, bit;
-
-    // XOR Fenwick Tree
-    void add(int i, int val) {
-        for (; i <= n; i += i & -i)
-            bit[i] ^= val;
-    }
-
-    int sum(int i) {
-        int res = 0;
-        for (; i > 0; i -= i & -i)
-            res ^= bit[i];
-        return res;
-    }
-
-    // Range XOR update [l, r]
-    void rangeUpdate(int l, int r, int val) {
-        add(l, val);
-        if (r < n)
-            add(r + 1, val);
-    }
+    vector<int> tin, tout, depth;
+    FenwickXor fenw;
 
     void dfs(int u, int p) {
         tin[u] = ++timer;
@@ -34,8 +47,7 @@ public:
             up[k][u] = up[k - 1][up[k - 1][u]];
 
         for (int v : adj[u]) {
-            if (v == p)
-                continue;
+            if (v == p) continue;
             depth[v] = depth[u] + 1;
             dfs(v, u);
         }
@@ -48,16 +60,13 @@ public:
     }
 
     int lca(int u, int v) {
-        if (isAncestor(u, v))
-            return u;
-        if (isAncestor(v, u))
-            return v;
+        if (isAncestor(u, v)) return u;
+        if (isAncestor(v, u)) return v;
 
         for (int k = LOG - 1; k >= 0; k--) {
             if (!isAncestor(up[k][u], v))
                 u = up[k][u];
         }
-
         return up[0][u];
     }
 
@@ -72,11 +81,10 @@ public:
         depth.assign(n, 0);
 
         LOG = 1;
-        while ((1 << LOG) <= n)
-            LOG++;
+        while ((1 << LOG) <= n) LOG++;
 
         up.assign(LOG, vector<int>(n, 0));
-        bit.assign(n + 1, 0);
+        fenw.init(n);
 
         for (auto& e : edges) {
             adj[e[0]].push_back(e[1]);
@@ -85,11 +93,8 @@ public:
 
         dfs(0, 0);
 
-        // Initialize prefix masks using subtree range updates
-        for (int u = 0; u < n; u++) {
-            int mask = 1 << (this->s[u] - 'a');
-            rangeUpdate(tin[u], tout[u], mask);
-        }
+        for (int u = 0; u < n; u++)
+            fenw.rangeUpdate(tin[u], tout[u], 1 << (this->s[u] - 'a'));
 
         vector<bool> ans;
 
@@ -103,23 +108,19 @@ public:
                 char c;
                 iss >> c;
 
-                int oldMask = 1 << (this->s[u] - 'a');
-                int newMask = 1 << (c - 'a');
-
-                int delta = oldMask ^ newMask;
-
+                int delta = (1 << (this->s[u] - 'a')) ^ (1 << (c - 'a'));
                 if (delta) {
-                    rangeUpdate(tin[u], tout[u], delta);
+                    fenw.rangeUpdate(tin[u], tout[u], delta);
                     this->s[u] = c;
                 }
-            } else if (op == "query") {
+            } else {
                 int v;
                 iss >> v;
 
                 int w = lca(u, v);
-
-                int mask =
-                    sum(tin[u]) ^ sum(tin[v]) ^ (1 << (this->s[w] - 'a'));
+                int mask = fenw.pointQuery(tin[u])
+                         ^ fenw.pointQuery(tin[v])
+                         ^ (1 << (this->s[w] - 'a'));
 
                 ans.push_back((mask & (mask - 1)) == 0);
             }
